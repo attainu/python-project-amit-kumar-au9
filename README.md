@@ -2,17 +2,15 @@
 
 ## DESCRIPTION
 
----
+This is a parking lot project whose aim is to reduce human intervention and to make it an automatic process.
 
-This is a parking lot project which aim is to reduce human intervention and to make it a automatic process.
+In this project, I have made a parking solution for parking owner/admin.
 
-In this Project I have made a parking solution for parking owner/admin.
+The project can handle multi-floor parking.
 
-The project can handle multi floor parking.
+The parking spaces are being stored in the **Dictionary** datatype storing the slot_no as key and the car info as values
 
-The parking spaces are being stored in the **Dictionary** data type storing the slot_no as key and the car info as values
-
-The car info is again stored in the form of **Dictionay** data type having key and its value
+The car info is again stored in the form of **Dictionary** data type having a key and its value
 
 _For eg:_
 
@@ -28,9 +26,9 @@ Empty/No Car would be like an empty dictionary = {}
 
 It has some basic listed features:
 
-1. Create Parking lot
+1. Create a Parking lot
 
-2. Park a new car
+2. Park new car
 
 3. Leave a car
 
@@ -40,17 +38,19 @@ It has some basic listed features:
 
 6. Search car Slot No. by car color
 
-7. Search car Slot No. by car Registraion No.
+7. Search car Slot No. by car Registration No.
 
 Extra Features:
 
-1. Making it multi floor parking having several floors
+1. Making it multi-floor parking having several floors
 
-2. Storing entry time of car and email address of car owner
+2. Storing entry time of the car and email address of the car owner
 
 3. Checking car parking duration while checking the status of Parking Lot
 
 4. Getting an E-mail notification while leaving the parking lot about your time duration and other details.
+
+---
 
 ## EXPLAINING COMMANDS
 
@@ -64,18 +64,22 @@ Extra Features:
 | Search slot no. by color            | slot_numbers_for_cars_with_colour(space)(Car Color)                  | slot_numbers_for_cars_with_colour White           |
 | Search slot no. by registration no. | slot_number_for_registration_number(space)(Registration No.)         | slot_number_for_registration_number KA-01-HH-1234 |
 
-## USAGE
-
 ---
+
+## USAGE
 
 Just go to through the main.py and run the code
 
-This will show you an option of selecting among 2 choice i.e. Running Terminal Commands by Press 1 || Running commands saved on file.txt by Press 2
+This will show you an option of selecting among 2 choices i.e. Running Terminal Commands by Press 1 || Running commands saved on file.txt by Press 2
 
 By choosing 1 you can type the commands and the resultant output would be there
 
-By choosing 2 the file.txt will run and prints the output of each command.
+By choosing 2 the file.txt will run and print the output of each command.
+
+---
 
 ## AUTHOR
 
 AMIT KUMAR
+
+---
