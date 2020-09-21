@@ -181,7 +181,7 @@ if __name__ == "__main__":
     a = int(input("1 for Terminal Input and 2 for Executing File"))
     if a == 2:
         input_file = open(
-            "D:/Technical Stuffs/Attainu Course/Parking-lot/file.txt", "r")
+            "D:/python-project-amit-kumar-au9/file.txt", "r")
     while(True):
         if (a == 1):
             take = input().lower().split(" ")
@@ -244,6 +244,9 @@ if __name__ == "__main__":
 
             elif take[0] == 'exit':
                 break
+
+            else:
+                print("Wrong Command")
             print()
         except Exception:
             print("Wrong input || Error Occured")
