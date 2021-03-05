@@ -180,8 +180,7 @@ if __name__ == "__main__":
 
     a = int(input("1 for Terminal Input and 2 for Executing File"))
     if a == 2:
-        input_file = open(
-            "D:/python-project-amit-kumar-au9/file.txt", "r")
+        input_file = open("file.txt", "r")
     while(True):
         if (a == 1):
             take = input().lower().split(" ")
